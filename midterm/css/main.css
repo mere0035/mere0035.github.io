@@ -1,0 +1,29 @@
+/*CSS Comment*/
+html{
+    font-size: 32px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(../images/white_brick_wall.png);
+    /*color: rgb(255, 255, 255);*/
+    background-repeat: repeat;
+    background-position: top center;
+    /*background-size: contain;*/
+
+}
+header {
+    background-color: darkcyan;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: bold;
+}
+p:nth-child(2){
+    font-style: italic;
+}
